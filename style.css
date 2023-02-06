@@ -1,0 +1,76 @@
+.header{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -8px;
+    
+}
+    
+.header-menu,li{
+    display: inline-block;
+    display:flex ;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    list-style: none;
+    
+}
+.logo_item{
+    width: 60px;
+    height: 50px;
+    background-image: url(./logo/logo-PhotoRoom.png);
+    background-size: cover;
+    margin-top: -10px;
+    text-align: left;
+    position: absolute;
+    margin-top: 5px;
+}
+.oneblock{
+    width: 100%;
+    height: 700px;
+}
+
+.paralax{
+    background-image: url(./bacground/nebo-oblaka-vysota-3997.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: auto;
+    min-height: 1000px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    /* backdrop-filter: blur(5px); */
+    /* Использовать при готовом паралаксе */
+}
+.paralax-text{
+    color: black;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    backdrop-filter: blur(5px);
+}
+.text-about{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    backdrop-filter: blur(1px);
+}
+
+.twoblock{
+    width: 100%;
+    height: 700px;
+    background-color: wheat;
+    
+    
+}

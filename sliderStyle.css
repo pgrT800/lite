@@ -1,0 +1,34 @@
+/* .swipe-slide1{
+background-image: url(./img/content/derevo.jpg);
+}
+.swipe-slide2{
+    background-image: url(./img/content/derevo2.jpg);
+}
+.swipe-slide3{
+    background-image: url(./img/content/derevo3.jpg);
+}
+.swipe-slide4{
+    background-image: url(./img/content/grafandgold.jpg);
+} */
+
+.swiper{
+width: 1000px;
+height: 100%;
+}
+.swipe-slide1, .swipe-slide2, .swipe-slide3 ,.swipe-slide4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+
+}
+.swiper-button-next,.swiper-button-prev,.swiper-rtl{
+    right: 100px;
+    left: auto;
+}
+.swiper-button-prev,.swiper-button-next,.swiper-rtl{
+    left: 100px;
+    right: auto;
+}
